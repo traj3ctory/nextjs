@@ -11,7 +11,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Header = (props) => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="info" variant="dark" className="shadow py-1">
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="shadow-sm font-font-weight-bold pt-4 mb-3 border-bottom" >
                 <Navbar.Brand href="#home">Next-Js</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

@@ -1,9 +1,10 @@
 import Link from "next/link";
+import style from '../styles/home.module.scss';
 
 export default function Home() {
   return (
     <>
-      <div className="container">
+      <div className={style.homepage}>
         <h1>Homepage</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
@@ -17,8 +18,9 @@ export default function Home() {
           explicabo ducimus consequuntur alias. Aperiam amet, quos animi optio
           harum doloribus vel!
         </p>
+
         <Link href="/ninja">
-          <a>See Ninja Listing</a>
+          <a className="btn btn-sm btn-primary">See Ninja Listing</a>
         </Link>
       </div>
     </>

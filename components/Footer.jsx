@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from '../styles/footer.module.scss'
 
 /**
 * @author traj3ctory
@@ -7,9 +8,9 @@ import React from 'react'
 
 const Footer = (props) => {
     return (
-        <>
-            <h5 className="text-center">Copyright 2021 Traj3ctory</h5>
-        </>
+        <footer className={styles.footer}>
+            <p className="text-center mb-1">Copyright 2021 Traj3ctory</p>
+        </footer>
     )
 }
 
