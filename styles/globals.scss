@@ -16,3 +16,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#not-found {
+  text-align: center;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  width: inherit;
+  .title {
+    border-right: 3px solid #555;
+  }
+}

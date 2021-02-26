@@ -5,6 +5,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 75vh;
     width: inherit;
+}
+
+.title {
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #777777;
+
+    &:after {
+        content: ".";
+        clear: both;
+    }
+}
+
+.content {
+    font-weight: 500;
+}
+
+.btn {
+    margin-top: .7rem;
 }

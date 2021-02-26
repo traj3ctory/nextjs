@@ -5,22 +5,22 @@ export default function Home() {
   return (
     <>
       <div className={style.homepage}>
-        <h1>Homepage</h1>
-        <p>
+        <h1 className={style.title}>Homepage</h1>
+        <p className={style.content}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
           sequi, eum laudantium veritatis impedit illum sunt quod, rerum
           explicabo ducimus consequuntur alias. Aperiam amet, quos animi optio
           harum doloribus vel!
         </p>
-        <p>
+        <p className={style.content}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
           sequi, eum laudantium veritatis impedit illum sunt quod, rerum
           explicabo ducimus consequuntur alias. Aperiam amet, quos animi optio
           harum doloribus vel!
         </p>
 
-        <Link href="/ninja">
-          <a className="btn btn-sm btn-primary">See Ninja Listing</a>
+        <Link href="/ninjas">
+          <a className={`btn btn-sm btn-primary ${style.btn}`}>See Ninja Listing</a>
         </Link>
       </div>
     </>
